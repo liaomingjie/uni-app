@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "uni商店",
+        "navigationBarBackgroundColor": "#bb2c08"
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

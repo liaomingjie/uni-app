@@ -1,0 +1,45 @@
+.floor .floorImg {
+  width: 100%;
+  height: 350rpx;
+}
+.floor .floorScroll {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300rpx;
+}
+.floor .floorScroll .scrollItem {
+  width: 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 20rpx;
+}
+.floor .floorScroll .scrollItem.single {
+  width: 200rpx;
+  height: 300rpx;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  text-align: center;
+  line-height: 300rpx;
+}
+.floor .floorScroll .scrollItem .itemImg {
+  width: 200rpx;
+  height: 200rpx;
+}
+.floor .floorScroll .scrollItem .itemText {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /** 多行文本溢出...*/
+  overflow: hidden;
+  font-size: 28rpx;
+}
+
